@@ -13,6 +13,7 @@ public class Playtesting : GameBehaviour
     void Start()
     {
         rend = GetComponent<Renderer>();
+        _TIMER.StartTimer();
     }
 
     void Update()
